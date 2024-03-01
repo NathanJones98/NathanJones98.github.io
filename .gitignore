@@ -1,0 +1,25 @@
+# Ignore Node.js dependencies
+/node_modules
+/nej_app/node_modules
+/nej_app/build
+/nej_app/
+# Ignore development files
+/nej_app/public
+/nej_app/src
+
+# Ignore package lock files
+/package-lock.json
+/nej_app/package-lock.json
+
+# Ignore virtual environment and package files
+/venv
+
+# Ignore other miscellaneous files
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
